@@ -11,4 +11,4 @@ RUN pip install dagster dagit
 COPY  workspace.yaml .
 COPY dagster_example ./dagster_example
 
-CMD ["dagit", "-w", "workspace.yaml", "-h", "0.0.0.0", "-p", "3000"]
+CMD ["dagit", "-w", "workspace.yaml", "-p", "3000"]
