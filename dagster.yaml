@@ -1,8 +1,8 @@
-# telemetry:
-#   enabled: false
-# nux:
-#   enabled: false
-# storage:
-#   sqlite:
-#     base_dir: ./.dagster
-# # 
+storage:
+  postgres:
+    postgres_db:
+      username: postgres
+      password: Stock12345@
+      hostname: 35.202.203.47
+      db_name: postgres
+      port: 5432
